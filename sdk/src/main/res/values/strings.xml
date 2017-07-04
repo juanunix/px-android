@@ -42,6 +42,8 @@
     <string name="entity_type_mco_individual">Natural</string>
     <string name="entity_type_mco_association">Jurídica</string>
 
+    <string name="mpsdk_entity_types_not_found_error_message">No se encontraron tipos de persona en EntityTypesActivity</string>
+
     <!-- Financial Institutions -->
     <string name="mpsdk_financial_institutions_title">¿Cuál es tu banco?</string>
 

@@ -1427,6 +1427,11 @@ public class CheckoutPresenterTest {
             showingReviewAndConfirm = false;
             showingPaymentResult = false;
         }
+
+        @Override
+        public void showAdditionalStep(Site site, PaymentMethod paymentMethod) {
+            //TODO
+        }
     }
 
     public class MockedProvider implements CheckoutProvider {

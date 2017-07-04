@@ -41,6 +41,8 @@
     <string name="entity_type_mco_individual">Individual</string>
     <string name="entity_type_mco_association">Association</string>
 
+    <string name="mpsdk_entity_types_not_found_error_message">No entityTypes found at EntityTypesActivity</string>
+
     <!-- Financial Institutions -->
     <string name="mpsdk_financial_institutions_title">Which is your bank?</string>
 

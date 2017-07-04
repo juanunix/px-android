@@ -12,4 +12,9 @@ import java.util.List;
 
 public interface EntityTypeProvider extends ResourcesProvider {
     List<EntityType> getEntityTypesBySite(Site site);
+
+    String getStandardErrorMessage();
+
+    String getEmptyEntityTypesErrorMessage();
+
 }

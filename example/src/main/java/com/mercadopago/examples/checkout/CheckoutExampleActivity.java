@@ -113,7 +113,7 @@ public class CheckoutExampleActivity extends AppCompatActivity {
     private CheckoutPreference getCheckoutPreference() {
         return new CheckoutPreference.Builder()
                 .addItem(new Item("Item", BigDecimal.TEN.multiply(BigDecimal.TEN)))
-                .setSite(Sites.ARGENTINA)
+                .setSite(Sites.COLOMBIA)
 //                .addExcludedPaymentType(PaymentTypes.ATM)
 //                .addExcludedPaymentType(PaymentTypes.BANK_TRANSFER)
 //                .addExcludedPaymentType(PaymentTypes.DEBIT_CARD)
@@ -139,7 +139,9 @@ public class CheckoutExampleActivity extends AppCompatActivity {
 
         PaymentResult paymentResult = new PaymentResult.Builder()
                 .setPaymentData(paymentData)
-                .setPaymentStatus(Payment.StatusCodes.STATUS_APPROVED)
+//                .setPaymentStatus(Payment.StatusCodes.STATUS_APPROVED)
+                .setPaymentStatus(Payment.StatusCodes.STATUS_PENDING)
+                .setPaymentStatusDetail(Payment.StatusCodes.STATUS_DETAIL_PENDING_WAITING_PAYMENT)
 //                .setPaymentStatus(Payment.StatusCodes.STATUS_PENDING)
 //                .setPaymentStatus(Payment.StatusCodes.STATUS_REJECTED)
 //                .setPaymentStatusDetail(Payment.StatusCodes.STATUS_DETAIL_CC_REJECTED_BAD_FILLED_CARD_NUMBER)

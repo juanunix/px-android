@@ -69,7 +69,7 @@ public class PaymentVaultActivity extends MercadoPagoBaseActivity implements Pay
     private static final String MERCHANT_GET_CUSTOMER_URI_BUNDLE = "mMerchantGetCustomerUri";
     private static final String MERCHANT_GET_CUSTOMER_ADDITIONAL_INFO = "mMerchantGetCustomerAdditionalInfo";
     private static final String SHOW_BANK_DEALS_BUNDLE = "mShowBankDeals";
-    private static final String PRESENTER_BUNDLE = "mPresenter";
+    private static final String PRESENTER_BUNDLE = "mEntityTypePresenter";
 
     public static final String PAYMENT_VAULT_SCREEN_NAME = "PAYMENT_VAULT";
     public static final int COLUMN_SPACING_DP_VALUE = 20;
